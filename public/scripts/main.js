@@ -28,7 +28,6 @@ function handleClick(event, check = true) {
     event.preventDefault()
 
     const text = check ? "Marcar como lida" : "Excluir"
-    
     const slug = check ? "check" : "delete"
     const roomId = document.querySelector("#room-id").dataset.id
     const questionId = event.target.dataset.id
