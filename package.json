@@ -1,0 +1,20 @@
+{
+  "name": "rocket.q-nlw6-discover",
+  "version": "1.0.0",
+  "description": "Projecto desenvolvido para gerenciar perguntas anonimas de usuários direcionadas ao dono da página. Projecto desenvolvido na semana NLW Rockeatseat na missão Discover .",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JefferMarcelino/rocket.q-nlw6-discover.git"
+  },
+  "keywords": [],
+  "author": "Jeffer Marcelino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JefferMarcelino/rocket.q-nlw6-discover/issues"
+  },
+  "homepage": "https://github.com/JefferMarcelino/rocket.q-nlw6-discover#readme"
+}
