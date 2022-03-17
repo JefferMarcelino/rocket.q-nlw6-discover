@@ -95,3 +95,44 @@ input, button, .button {
     bottom: -16rem;
     right: 5.6rem;
 }
+
+/**** media queries  *****/
+@media (max-width: 900px) {
+    main .container {
+        width: min(25.3rem, 100%);
+        margin-top: 5rem;
+    }
+
+    .content {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 11.4rem 1fr;
+    
+        grid-template-areas: 
+        "header header"
+        "left right";
+    }
+}
+
+@media (max-width: 530px) {
+    #bg {
+        background-position-x: 0;
+        height: 30rem;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 11.4rem 3fr 1fr;
+    
+        grid-template-areas: 
+        "header"
+        "left"
+        "right";
+    }
+}
