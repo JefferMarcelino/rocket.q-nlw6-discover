@@ -173,3 +173,23 @@
     margin-top: 1.3rem;
     line-height: 1.9rem;
 }
+
+/*** media queries *****/
+@media (max-width: 530px) {
+    #room header a img {
+        width: 18rem;
+    }
+
+    #room header .buttons #room-id {
+        display: none;
+        position: none;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    #room header .buttons .button{
+        width: 100%;
+        height: auto;
+        line-height: 1.8rem;
+    }
+}
